@@ -1,0 +1,269 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cafe Bliss — Cafe Shop Website</title>
+  <meta name="description" content="Cafe Bliss - cozy café showcasing menu, ambiance, and contact.">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="container nav">
+      <div class="brand">
+        <div class="logo">CB</div>
+        <div>
+          <div style="font-weight:700">Cafe Bliss</div>
+          <div style="font-size:12px;color:#888">Coffee • Snacks • Comfort</div>
+        </div>
+      </div>
+
+      <nav>
+        <ul>
+          <li><a href="#home" data-link>Home</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="#about" data-link>About</a></li>
+          <li><a href="#client_reviews" data-link>Our Clients</a></li>
+          <li><a href="#contact" data-link>Contact</a></li>
+        </ul>
+      </nav>
+
+      <a class="cta" href="#menu" data-link>Order Now</a>
+
+      <div class="menu-toggle" id="menu-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </header>
+
+
+
+  <main class="container">
+    <!-- HERO -->
+    <section id="home" class="hero">
+      <div class="hero-left">
+        <h1>Welcome to <span style="color:#b07b5a">Cafe Bliss</span></h1>
+        <p class="hero-p">A cozy place where every cup tells a story. Join us for freshly brewed coffee, homestyle
+          snacks, and desserts made with love.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#menu" data-link>See Menu</a>
+          <a class="btn btn-outline" href="#about" data-link>Our Story</a>
+        </div>
+        <div style="margin-top:18px;color:#666;font-size:14px">Open: Mon–Sun, 8:00 AM – 10:00 PM • Free Wi-Fi • Cozy
+          seating</div>
+      </div>
+
+      <aside class="hero-right">
+        <div class="cover-image"><img src="./assets/hero.jpg" alt="hero"></div>
+        <div style="display:flex;gap:10px;margin-top:12px;justify-content:space-between;align-items:center">
+          <div style="font-size:14px">
+            <div style="font-weight:700">Featured</div>
+            <div class="muted">Caramel Latte • Best Seller</div>
+          </div>
+          <div style="font-size:18px;font-weight:700;color:#b07b5a">₹149</div>
+        </div>
+      </aside>
+    </section>
+
+    <!-- MENU -->
+    <section id="menu">
+      <div class="section-title">
+        <h2>Our Menu</h2>
+      </div>
+      <div class="grid menu-grid">
+        <article class="card">
+          <div class="menu-img"><img src="./assets/Caramel Dolce Latte.jpg" alt=""></div>
+          <div class="menu-ico">☕</div>
+          <div>
+            <h3>Coffee - Caramel Latte</h3>
+            <div class="muted">Rich espresso, steamed milk, caramel</div>
+          </div>
+          <div class="price">₹149</div>
+        </article>
+
+        <article class="card">
+          <div class="menu-img"><img src="./assets/Snacks.jpg" alt=""></div>
+          <div class="menu-ico">🥐</div>
+          <div>
+            <h3>Snacks - Butter Croissant</h3>
+            <div class="muted">Buttery flakey goodness</div>
+          </div>
+          <div class="price">₹89</div>
+        </article>
+
+        <article class="card">
+          <div class="menu-img"><img src="assets/chocolate.jpg" alt=""></div>
+          <div class="menu-ico">🍰</div>
+          <div>
+            <h3>Dessert - Chocolate Cheesecake</h3>
+            <div class="muted">Creamy, chocolatey, delightful</div>
+          </div>
+          <div class="price">₹199</div>
+        </article>
+
+        <article class="card">
+          <div class="menu-img"><img src="assets/Beverage.jpg" alt=""></div>
+          <div class="menu-ico">🥤</div>
+          <div>
+            <h3>Beverage - Iced Tea</h3>
+            <div class="muted">Lemon mint iced tea</div>
+          </div>
+          <div class="price">₹79</div>
+        </article>
+
+        <article class="card">
+          <div class="menu-img"><img src="assets/sandwich.jpg" alt=""></div>
+          <div class="menu-ico">🍔</div>
+          <div>
+            <h3>Sandwich - Veg Club</h3>
+            <div class="muted">Fresh veggies, grilled to perfection</div>
+          </div>
+          <div class="price">₹129</div>
+        </article>
+
+        <article class="card">
+          <div class="menu-img"><img src="assets/cupcake.jpg" alt=""></div>
+          <div class="menu-ico">🧁</div>
+          <div>
+            <h3>Mini Cupcake</h3>
+            <div class="muted">Perfect bite-sized treat</div>
+          </div>
+          <div class="price">₹39</div>
+        </article>
+      </div>
+      <div> <a class="cta" href="menu.html">Explore more -></a>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about">
+      <div class="section-title">
+        <h2>About Cafe Bliss</h2>
+      </div>
+      <div class="about">
+        <div class="box">
+          <p>Founded in 2023, Cafe Bliss was created to be a warm corner for friends, students, and creators. Our coffee
+            beans are sourced ethically, and our snacks are baked fresh daily. The interiors mix wood and soft lighting
+            to create a relaxing ambiance perfect for studying or catching up with friends.</p>
+          <ul style="margin-top:12px;color:#555">
+            <li>Locally sourced ingredients</li>
+            <li>Cozy workspace with charging points</li>
+            <li>Seasonal specials every month</li>
+          </ul>
+        </div>
+        <div class="box center">
+          <div style="width:100%">
+            <div class="shop-img"
+              style="height:220px;border-radius:10px;background:linear-gradient(135deg,#f9f9f9,#f1e7dd);display:flex;align-items:center;justify-content:center">
+              <img src="assets/shop.jpg" alt=" Cafe Photo Placeholder">
+            </div>
+            <div style="margin-top:10px;text-align:center;color:#777;font-size:14px">Our cozy corner — perfect for
+              meetings & relaxation</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- OUR CLIENTS -->
+    <section id="client_reviews">
+      <div class="section-title">
+        <h2>What Our Clients Say</h2>
+      </div>
+
+      <div class="review-container">
+        <div class="review-card">
+          <img src="./assets/pooja.jpg" alt="Client 1">
+          <h3>Pooja Sharma</h3>
+          <p>⭐️⭐️⭐️⭐️⭐️</p>
+          <p class="review-text">“Absolutely loved the food! The flavors were rich and authentic.”</p>
+        </div>
+
+        <div class="review-card">
+          <img src="./assets/dairya.jpg" alt="Client 2">
+          <h3>Dhairya Patel</h3>
+          <p>⭐️⭐️⭐️⭐️</p>
+          <p class="review-text">“Great ambiance and service. The desserts were my favorite!”</p>
+        </div>
+
+        <div class="review-card">
+          <img src="./assets/rohan.jpg" alt="Client 3">
+          <h3>Rohal Verma</h3>
+          <p>⭐️⭐️⭐️⭐️⭐️</p>
+          <p class="review-text">“Highly recommend! Every dish was fresh and flavorful.”</p>
+        </div>
+
+        <div class="review-card">
+          <img src="./assets/robin.jpg" alt="Client 4">
+          <h3>Robin Mehta</h3>
+          <p>⭐️⭐️⭐️⭐️⭐️</p>
+          <p class="review-text">“Amazing staff and quick service. I’ll definitely come again.”</p>
+        </div>
+
+        <div class="review-card">
+          <img src="./assets/riya.jpg" alt="Client 5">
+          <h3>Riya Singh</h3>
+          <p>⭐️⭐️⭐️⭐️</p>
+          <p class="review-text">“Delicious food at reasonable prices. A must-try place!”</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact">
+      <div class="section-title">
+        <h2>Contact Us</h2>
+      </div>
+      <div class="grid contact-grid">
+        <form id="contactForm" novalidate>
+          <label for="name">Name</label>
+          <input id="name" name="name" type="text" placeholder="Your name">
+          <div id="err-name" class="error" aria-live="polite"></div>
+
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" placeholder="you@example.com">
+          <div id="err-email" class="error" aria-live="polite"></div>
+
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" placeholder="Write your message..."></textarea>
+          <div id="err-message" class="error" aria-live="polite"></div>
+
+          <button type="submit" class="btn btn-primary">Send Message</button>
+          <div id="form-success" style="color:green;font-weight:600;margin-top:8px;display:none">Thanks! Your message
+            has been submitted.</div>
+        </form>
+
+        <aside class="box">
+          <h3>Visit Us</h3>
+          <p class="muted">123 Coffee Lane, Downtown, Surat</p>
+          <p class="muted">Phone: +91 98765 XXXXX</p>
+          <p class="muted">Email: hello@cafebliss.com</p>
+          <div style="margin-top:12px">
+            <strong>Opening Hours</strong>
+            <ul class="muted" style="margin-top:6px">
+              <li>Mon–Sun: 8:00 AM – 10:00 PM</li>
+            </ul>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="container">
+      <div>© <span id="year"></span> Cafe Bliss. Designed with ☕ & ❤️ by Soumya Tiwari for <span
+          id="cmp">WebDevSoftIT</span>.</div>
+    </div>
+  </footer>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
