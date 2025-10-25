@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Cafe Bliss
 
 A simple, responsive website for Cafe Bliss — a cozy café showcasing coffee, snacks, and ambiance.  
@@ -37,3 +38,7 @@ cafe-bliss/
 1. Clone the repository:  
    ```bash
    git clone https://github.com/Soumya-twr05/cafe-bliss.git
+=======
+# cafe-bliss
+A simple, responsive website for Cafe Bliss — a cozy café showcasing coffee, snacks, and ambiance.   Built as Project 1 for the WebDevSoft Internship Program.
+>>>>>>> f2163429023908910aae4a973bc0405facf66405
