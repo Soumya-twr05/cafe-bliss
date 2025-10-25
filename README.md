@@ -42,3 +42,7 @@ cafe-bliss/
 # cafe-bliss
 A simple, responsive website for Cafe Bliss — a cozy café showcasing coffee, snacks, and ambiance.   Built as Project 1 for the WebDevSoft Internship Program.
 >>>>>>> f2163429023908910aae4a973bc0405facf66405
+
+## Final Report
+
+You can download the final report here: [Cafe Bliss Final Report](report/Cafe_Bliss_Final_Report1.pdf)
