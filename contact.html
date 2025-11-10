@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact Us | Café Bliss</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style/style.css">
+  <link rel="stylesheet" href="./style/contact.css">
+</head>
+
+<body>
+  <!-- Header -->
+  <header>
+    <div class="container nav">
+      <div class="brand">
+        <div class="logo">CB</div>
+        <div>
+          <div style="font-weight:700">Cafe Bliss</div>
+          <div style="font-size:12px;color:#888">Coffee • Snacks • Comfort</div>
+        </div>
+      </div>
+
+      <nav>
+        <ul>
+          <li><a href="index.html" >Home</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="index.html#client_reviews" >Our Clients</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+
+      <a class="cta" href="order.html">Order Now</a>
+
+      <div class="menu-toggle" id="menu-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </header>
+
+  <div class="contact-wrapper">
+    <!-- LEFT SIDE -->
+    <div class="contact-info">
+      <h2>Visit or Contact Us</h2>
+      <p><i>📍</i><strong>Address:</strong> 12 Aroma Street, Ring Road, Surat, India</p>
+      <p><i>📞</i><strong>Phone:</strong> +91 98765 43210</p>
+      <p><i>📧</i><strong>Email:</strong> cafebliss@gmail.com</p>
+      <p><i>🕒</i><strong>Opening Hours:</strong> Mon–Sun | 8 AM – 10 PM</p>
+
+      <div class="map">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3719.553231656321!2d72.8311!3d21.1702!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be04efb22b6b3a9%3A0xb3b6f37e5e6160e7!2sSurat%2C%20Gujarat!5e0!3m2!1sen!2sin!4v1692608504928!5m2!1sen!2sin"
+          width="100%" height="220" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+    </div>
+
+    <!-- RIGHT SIDE -->
+    <form class="contact-form" id="contactForm">
+      <h2>We’d Love to Hear from You</h2>
+
+      <label for="name">Full Name</label>
+      <input type="text" id="name" placeholder="Your name" required>
+
+      <label for="email">Email Address</label>
+      <input type="email" id="email" placeholder="you@example.com" required>
+
+      <label for="message">Message</label>
+      <textarea id="message" rows="5" placeholder="Type your message..." required></textarea>
+
+      <button type="submit">Send Message</button>
+    </form>
+  </div>
+
+  <footer>
+    <div class="container">
+      <div>© <span id="year"></span> Cafe Bliss. Designed with ☕ & ❤️ by Soumya Tiwari for <span
+          id="cmp">WebDevSoftIT</span>.</div>
+    </div>
+  </footer>
+  <script src="script/contact.js"></script>
+  <script src="script/script.js"></script>
+  
+</body>
+</html>

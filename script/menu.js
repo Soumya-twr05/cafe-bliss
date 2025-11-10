@@ -56,7 +56,7 @@
           </div>
           <div class="popup-buttons">
           <button class="close-btn" id="closePopup">Close</button>
-          <button class="order-btn" id="orderPopup">Place Order</button>
+          <button class="order-btn" id="orderPopup"><a href="order.html">Place Order</a></button>
           </div>
         `;
 
